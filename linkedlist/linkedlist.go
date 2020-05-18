@@ -140,7 +140,7 @@ func NewNode(d interface{}) *Node {
 func NewList() *List {
 	sentry := NewNode(0)
 	return &List{
-		size: 1,
+		size: 0,
 		head: sentry,
 		tail: sentry,
 	}
