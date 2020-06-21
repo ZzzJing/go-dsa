@@ -51,3 +51,17 @@ func TestQuickSort(t *testing.T) {
 	QuickSort(a, len(a))
 	fmt.Println("after:", a)
 }
+
+func TestCountSort(t *testing.T) {
+	a := generateArray(10)
+	fmt.Println("pre:", a)
+	CountSort(a)
+	fmt.Println("after:", a)
+}
+
+func TestBucketSort(t *testing.T) {
+	a := generateArray(10)
+	fmt.Println("pre:", a)
+	BucketSort(a)
+	fmt.Println("after:", a)
+}
