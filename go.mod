@@ -1,3 +1,3 @@
-module learn/go-dsa
+module go-dsa
 
 go 1.12
